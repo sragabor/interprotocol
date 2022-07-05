@@ -1,5 +1,5 @@
 backend:
-  name: interprotocol
+  name: github
 
 site_url: https://interprotocol.netlify.app
 
