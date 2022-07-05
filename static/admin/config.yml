@@ -1,5 +1,6 @@
 backend:
   name: github
+  repo: sragabor/interprotocol
 
 site_url: https://interprotocol.netlify.app
 
