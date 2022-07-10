@@ -1,0 +1,52 @@
+@import "reset";
+@import "config";
+@import "variables";
+@import "fonts";
+@import "components/buttons";
+
+@import "components/header";
+@import "components/Home/hero-section";
+@import "components/Home/stake-section";
+
+body{
+  background:yellow;
+  font-family: $font;
+  font-size:16px;
+  font-weight:400;
+  color: #000000;
+  letter-spacing: 0;
+}
+
+.section{
+  width:100%;
+
+  .container{
+    margin:auto;
+    width:100%;
+    padding:0 30px;
+    max-width:1460px;
+  }
+  p{
+    font-size: 1.25rem;
+    color: #000000;
+    letter-spacing: 0;
+    line-height: 1.3em;
+  }
+}
+
+h1{
+  font-weight:bold;
+  font-size: 100px;
+  color: #000000;
+  letter-spacing: 0;
+  line-height: 95px;
+}
+
+h2{
+  font-weight:bold;
+  font-size: 66px;
+  color: #000000;
+  letter-spacing: 0;
+  line-height: 72px;
+  margin-bottom:10px;
+}

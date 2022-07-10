@@ -1,0 +1,23 @@
+button{
+  background: #000000;
+  border-radius: 20px;
+  font-weight:bold;
+  font-size: 14px;
+  color: #FFFFFF;
+  letter-spacing: 0;
+  text-align: center;
+  padding:0 20px;
+  line-height:40px;
+  border:none;
+  outline:none;
+  transition:500ms all ease-in-out;
+  margin:20px auto auto auto;
+
+  &:focus{
+    outline:none;
+  }
+
+  &:hover{
+    background:lighten(#000000,10%);
+  }
+}
