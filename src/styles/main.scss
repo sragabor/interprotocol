@@ -5,11 +5,12 @@
 @import "components/buttons";
 
 @import "components/header";
+@import "components/footer";
 @import "components/Home/hero-section";
 @import "components/Home/stake-section";
+@import "components/Home/video-section";
 
 body{
-  background:yellow;
   font-family: $font;
   font-size:16px;
   font-weight:400;
@@ -48,5 +49,5 @@ h2{
   color: #000000;
   letter-spacing: 0;
   line-height: 72px;
-  margin-bottom:10px;
+  margin-bottom:0px;
 }
