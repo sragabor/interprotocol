@@ -9,7 +9,7 @@ class VideoSection1 extends React.Component {
         return (
             <div className={'container'}>
                 <div className={'flex flex-wrap items-center h-full'}>
-                    <div className={'basis-full md:basis-1/2 md:pr-52 order-2 md:order-1 pl-16'}>
+                    <div className={'basis-full md:basis-1/2 md:pr-52 order-2 md:order-1 md:pl-16'}>
                         <div className={'video-section-content'}>
                             <h2>Create a vault</h2>
                             <p>

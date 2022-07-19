@@ -63,6 +63,12 @@ class Fullpage extends React.Component {
         }else{
             document.getElementById("fp-nav").classList.remove('fp-nav-show');
         }
+
+        if(destination.index === 0){
+            document.getElementById("header").classList.remove('with-bg');
+        }else{
+            document.getElementById("header").classList.add('with-bg');
+        }
     }
 
     render(){
@@ -89,7 +95,7 @@ class Fullpage extends React.Component {
                             <div className={'section whats-different-section fp-auto-height'}>
                                 <WhatsDifferentSection/>
                             </div>
-                            <div className={'section recent-tweets-section fp-auto-height white-section'}>
+                            <div className={'section recent-tweets-section fp-auto-height white-section hidden'}>
                                 <RecentTweetsSection/>
                             </div>
                             <div className={'section video-section white-section fp-auto-height-responsive'}>
