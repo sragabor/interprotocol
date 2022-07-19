@@ -1,6 +1,19 @@
 .what-people-says-section{
   padding-top:160px;
 
+  @media screen and (max-width: $xxl) {
+    padding-top:120px;
+  }
+  @media screen and (max-width: $xl) {
+    padding-top:100px;
+  }
+  @media screen and (max-width: $lg) {
+    padding-top:75px;
+  }
+  @media screen and (max-width: $md) {
+    padding-top:50px;
+  }
+
   .carousel-item{
     display:unset;
     margin-right:unset;

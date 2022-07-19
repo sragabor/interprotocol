@@ -95,7 +95,7 @@ class Fullpage extends React.Component {
                             <div className={'section whats-different-section fp-auto-height'}>
                                 <WhatsDifferentSection/>
                             </div>
-                            <div className={'section recent-tweets-section fp-auto-height white-section hidden'}>
+                            <div className={'section recent-tweets-section fp-auto-height white-section'}>
                                 <RecentTweetsSection/>
                             </div>
                             <div className={'section video-section white-section fp-auto-height-responsive'}>

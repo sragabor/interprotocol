@@ -2,7 +2,7 @@
   padding-top:130px;
 
   @media screen and (max-width: $md) {
-    padding-top:60px;
+    padding-top:20px;
   }
 
   .container{
@@ -128,7 +128,7 @@
         background: radial-gradient(ellipse at top right, #FEC60B, #FBAE10);
       }
       .image{
-        padding-bottom:50px;
+        margin-bottom:50px;
 
         img{
           max-height:240px;

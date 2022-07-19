@@ -6,9 +6,9 @@ class Footer extends React.Component {
             <footer>
                 <div className={'container container-slim'}>
                     <div className={'flex flex-row'}>
-                        <div className={'basis-5/12'}>
+                        <div className={'basis-full md:basis-5/12'}>
                             <div className={'flex flex-row items-center'}>
-                                <div className={'flex flex-col basis-1/2'}>
+                                <div className={'flex flex-col basis-full md:basis-1/2'}>
                                     <h2>Stay up<br/>
                                     to <span>date</span></h2>
                                 </div>
@@ -17,7 +17,7 @@ class Footer extends React.Component {
                             </div>
                             <hr/>
                             <div className={'flex flex-row'}>
-                                <div className={'flex flex-col pr-20'}>
+                                <div className={'flex flex-col pr-10 md:pr-20'}>
                                     <legend>Sitemap</legend>
 
                                     <ul>

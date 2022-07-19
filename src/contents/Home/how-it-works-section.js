@@ -44,8 +44,8 @@ class HowItWorks extends React.Component {
 
                 <hr className={'my-16 w-full'}/>
 
-                <div className={'flex mt-16'}>
-                    <div className={'flex flex-col basis-1/3 px-5'}>
+                <div className={'flex flex-wrap mt-16'}>
+                    <div className={'flex flex-col basis-full md:basis-1/3 md:px-5 mb-14 md:mb-0'}>
                         <div className={'flex justify-between'}>
                             <div className={'flex flex-col'}>
                                 <div className={'image h-32'}>
@@ -53,14 +53,14 @@ class HowItWorks extends React.Component {
                                 </div>
                             </div>
                         </div>
-                        <div className={'w-10/12'}>
+                        <div className={'w-full md:w-10/12'}>
                             <h5>Parity Stability Module</h5>
                             <div className={'text'}>
                                 The parity stability module is provided for high-quality stablecoins such as USDC. The Parity Stability Module provides an arbitrage opportunity that keeps the IST peg tight.
                             </div>
                         </div>
                     </div>
-                    <div className={'flex flex-col basis-1/3 px-5'}>
+                    <div className={'flex flex-col basis-full md:basis-1/3 md:px-5 mb-14 md:mb-0'}>
                         <div className={'flex justify-between'}>
                             <div className={'flex flex-col'}>
                                 <div className={'image h-32'}>
@@ -68,14 +68,14 @@ class HowItWorks extends React.Component {
                                 </div>
                             </div>
                         </div>
-                        <div className={'w-10/12'}>
+                        <div className={'w-full md:w-10/12'}>
                             <h5>Reserve Pool</h5>
                             <div className={'text'}>
                                 The Reserve owns assets that are accepted as collateral for vaults and provides permanent liquidity to the AMM for liquidations. Assets held by the reserve can also be used to backstop vault liquidation shortfalls.
                             </div>
                         </div>
                     </div>
-                    <div className={'flex flex-col basis-1/3 px-5'}>
+                    <div className={'flex flex-col basis-full md:basis-1/3 md:px-5 mb-14 md:mb-0'}>
                         <div className={'flex justify-between'}>
                             <div className={'flex flex-col'}>
                                 <div className={'image h-32'}>
@@ -83,7 +83,7 @@ class HowItWorks extends React.Component {
                                 </div>
                             </div>
                         </div>
-                        <div className={'w-10/12'}>
+                        <div className={'w-full md:w-10/12'}>
                             <h5>Governance</h5>
                             <div className={'text'}>
                                 Governance determines the approved collateral types and manages the parameters associated with each collateral type based on the risk of the asset. These include the total debt limit, the collateralization ratio, the stability fee, and the liquidation penalty.
