@@ -1,7 +1,7 @@
 import React from "react";
 import {Link} from "gatsby";
 
-import logo from "../images/interprotocol-logo.png"
+import logo from "../images/interprotocol-logo.svg"
 import logoColor from "../images/interprotocol-logo-color.svg"
 
 class Header extends React.Component {

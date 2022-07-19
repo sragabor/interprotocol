@@ -1,6 +1,16 @@
 .how-it-works-section{
   padding:130px 0;
 
+  @media screen and (max-width: $xl) {
+    padding:100px 0;
+  }
+  @media screen and (max-width: $lg) {
+    padding:80px 0;
+  }
+  @media screen and (max-width: $md) {
+    padding:50px 0;
+  }
+
   .text{
     font-weight:normal;
     font-size: 0.875rem;

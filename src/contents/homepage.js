@@ -51,6 +51,18 @@ class Fullpage extends React.Component {
         }else{
             document.getElementById("header").classList.remove('colorful');
         }
+
+        if(destination.item.classList.contains('video-section') && direction === 'down'){
+            document.getElementById("header").classList.add('hidden-header');
+        }else{
+            document.getElementById("header").classList.remove('hidden-header');
+        }
+
+        if(destination.item.classList.contains('video-section')){
+            document.getElementById("fp-nav").classList.add('fp-nav-show');
+        }else{
+            document.getElementById("fp-nav").classList.remove('fp-nav-show');
+        }
     }
 
     render(){
@@ -64,6 +76,8 @@ class Fullpage extends React.Component {
                 scrollOverflow={true}
                 responsiveWidth={768}
                 responsiveHeight={800}
+                navigation={true}
+                navigationPosition={'left'}
 
 
     render={({ state, fullpageApi }) => {

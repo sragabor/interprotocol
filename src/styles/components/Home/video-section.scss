@@ -7,7 +7,7 @@
 
       @media screen and (max-width: $md) {
         height:unset;
-        padding:40px 30px;
+        padding:0;
       }
     }
 
@@ -17,6 +17,13 @@
       transition: 1250ms all ease-in-out 0ms;
       opacity:0;
       will-change: transform;
+
+
+      @media screen and (max-width: $md) {
+        padding:40px 30px;
+        opacity:1 !important;
+        transform:unset !important;
+      }
     }
 
     &.slide-up{
@@ -48,9 +55,10 @@
       right: 0;
       top:0;
 
-
       @media screen and (max-width: $md) {
         width:100%;
+        position:relative;
+        padding-top:100%;
       }
 
       video{

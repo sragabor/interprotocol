@@ -13,8 +13,8 @@ class HowItWorks extends React.Component {
                 <h3>How it <span>works</span></h3>
                 <h6>Learn about the mechanisms keeping IST stable.</h6>
 
-                <div className={'flex mt-16'}>
-                    <div className={'flex flex-col basis-6/12 pr-5'}>
+                <div className={'flex flex-wrap mt-16'}>
+                    <div className={'flex flex-col basis-full md:basis-6/12 pr-5'}>
                         <div className={'flex justify-between'}>
                             <div className={'flex flex-col'}>
                                 <div className={'image h-40'}>
@@ -27,7 +27,7 @@ class HowItWorks extends React.Component {
                             Due to the volatile nature of the price of crypto assets, most collateral types require overcollaterization. The collateralization ratio is set separately for each collateral type by governance.
                         </div>
                     </div>
-                    <div className={'flex flex-col basis-6/12 pl-5'}>
+                    <div className={'flex flex-col basis-full md:basis-6/12 pt-12 md:pt-0 md:pl-5'}>
                         <div className={'flex justify-between'}>
                             <div className={'flex flex-col'}>
                                 <div className={'image h-40'}>

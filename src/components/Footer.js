@@ -4,9 +4,9 @@ class Footer extends React.Component {
     render() {
         return (
             <footer>
-                <div className={'container'}>
+                <div className={'container container-slim'}>
                     <div className={'flex flex-row'}>
-                        <div className={'basis-1/2'}>
+                        <div className={'basis-5/12'}>
                             <div className={'flex flex-row items-center'}>
                                 <div className={'flex flex-col basis-1/2'}>
                                     <h2>Stay up<br/>

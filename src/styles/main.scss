@@ -139,8 +139,21 @@ h4{
   font-size: 48px;
   color: #000000;
   letter-spacing: 0;
-  line-height: 58px;
-  margin:0 0 15px 0;
+  line-height: 1.2em;
+  margin:0 0 .3em 0;
+
+  @media screen and (max-width: $xxl) {
+    font-size: 42px;
+  }
+  @media screen and (max-width: $xl) {
+    font-size: 36px;
+  }
+  @media screen and (max-width: $lg) {
+    font-size: 28px;
+  }
+  @media screen and (max-width: $md) {
+    font-size: 24px;
+  }
 }
 
 h5{
@@ -158,4 +171,39 @@ h6{
   color: #000000;
   letter-spacing: 0;
   margin:25px 0 0 0;
+
+  @media screen and (max-width: $lg) {
+    font-size: 20px;
+  }
+  @media screen and (max-width: $md) {
+    font-size: 18px;
+  }
+}
+
+#fp-nav{
+  opacity:0 !important;
+  transition:500ms all ease-in-out;
+
+  &.fp-nav-show{
+    opacity:1 !important;
+  }
+}
+
+#fp-nav ul li, .fp-slidesNav ul li{
+  margin:10px 5px !important;
+  display:none !important;
+
+  &:nth-child(4),&:nth-child(5),&:nth-child(6){
+    display:block !important;
+  }
+}
+#fp-nav ul li a span, .fp-slidesNav ul li a span{
+  width:14px !important;
+  height:14px !important;
+}
+#fp-nav ul li a.active span, #fp-nav ul li:hover a.active span, .fp-slidesNav ul li a.active span, .fp-slidesNav ul li:hover a.active span{
+  margin: -2px 0 0 -2px !important;
+  height:14px !important;
+  width:14px !important;
+  background:$yellow !important;
 }

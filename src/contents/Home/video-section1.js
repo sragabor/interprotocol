@@ -8,8 +8,8 @@ class VideoSection1 extends React.Component {
     render() {
         return (
             <div className={'container'}>
-                <div className={'flex flex-row flex-wrap items-center h-full'}>
-                    <div className={'basis-1/2 pr-64'}>
+                <div className={'flex flex-wrap items-center h-full'}>
+                    <div className={'basis-full md:basis-1/2 md:pr-52 order-2 md:order-1 pl-16'}>
                         <div className={'video-section-content'}>
                             <h2>Create a vault</h2>
                             <p>
@@ -17,7 +17,7 @@ class VideoSection1 extends React.Component {
                             </p>
                         </div>
                     </div>
-                    <div className={'basis-1/2 h-full'}>
+                    <div className={'basis-full md:basis-1/2 h-full order-1 md:order-2'}>
                         <div className={'video-container'}>
                             <video autoPlay={false} preload={'none'} loop={true} playsInline={true} muted={true} poster={video1hero}>
                                 <source src={video1} type='video/mp4;codecs="hvc1"'/>

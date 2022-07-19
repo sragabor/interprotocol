@@ -3,7 +3,7 @@ import React from "react";
 class WhatsDifferentSection extends React.Component {
     render() {
         return (
-            <div className={'container'}>
+            <div className={'container container-slim'}>
                 <div className={'flex flex-row items-end justify-between'}>
                     <div className={'basis-1/4'}>
                         <h3>What's <span className={'block'}>different?</span></h3>
