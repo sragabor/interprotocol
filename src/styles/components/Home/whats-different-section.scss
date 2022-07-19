@@ -1,0 +1,35 @@
+.whats-different-section{
+    background:#FFFFFF;
+    padding:150px 0 140px 0;
+
+    @media screen and (max-width: $xxl) {
+        padding: 125px 0;
+    }
+    @media screen and (max-width: $xl) {
+        padding: 100px 0;
+    }
+    @media screen and (max-width: $lg) {
+        padding: 75px 0;
+    }
+    @media screen and (max-width: $md) {
+        padding: 50px 0;
+    }
+
+    .inner-text{
+        padding-top:30px;
+        p{
+            column-gap: 40px;
+            column-count: 2;
+        }
+
+
+        @media screen and (max-width: $md) {
+            padding-top:40px;
+
+            p{
+                column-count: unset;
+                column-gap: unset;
+            }
+        }
+    }
+}

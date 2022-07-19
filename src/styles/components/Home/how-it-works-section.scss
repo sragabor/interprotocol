@@ -1,0 +1,21 @@
+.how-it-works-section{
+  padding:130px 0;
+
+  .text{
+    font-weight:normal;
+    font-size: 0.875rem;
+    color: #000000;
+    letter-spacing: 0;
+    line-height: 1.5em;
+    max-width:400px;
+  }
+
+  hr{
+    height: 5px;
+    background: #000000;
+  }
+
+  .external-link{
+    visibility:hidden;
+  }
+}

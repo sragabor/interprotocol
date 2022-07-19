@@ -4,12 +4,17 @@
     .container{
       padding:0 0 0 30px;
       height:100%;
+
+      @media screen and (max-width: $md) {
+        height:unset;
+        padding:40px 30px;
+      }
     }
 
     .video-section-content{
       width:100%;
       transform:translateY(-100%);
-      transition: 750ms all ease-in-out 100ms;
+      transition: 1250ms all ease-in-out 0ms;
       opacity:0;
       will-change: transform;
     }
@@ -41,6 +46,12 @@
       width: 50vw;
       overflow: hidden;
       right: 0;
+      top:0;
+
+
+      @media screen and (max-width: $md) {
+        width:100%;
+      }
 
       video{
         position:absolute;

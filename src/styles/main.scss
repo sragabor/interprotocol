@@ -3,12 +3,21 @@
 @import "variables";
 @import "fonts";
 @import "components/buttons";
+@import "components/hamburgers";
 
 @import "components/header";
 @import "components/footer";
 @import "components/Home/hero-section";
-@import "components/Home/stake-section";
+@import "components/Home/whats-different-section";
+@import "components/Home/recent-tweets-section";
 @import "components/Home/video-section";
+@import "components/Home/use-cases-section";
+@import "components/Home/how-it-works-section";
+@import "components/Home/voice-section";
+@import "components/Home/what-people-says-section";
+
+@import "components/tweet-card";
+
 
 body{
   font-family: $font;
@@ -26,12 +35,26 @@ body{
     width:100%;
     padding:0 30px;
     max-width:1460px;
+
+    &.container-slim{
+      max-width:1220px;
+    }
   }
   p{
-    font-size: 1.25rem;
+    font-size: 1.375rem;
     color: #000000;
     letter-spacing: 0;
     line-height: 1.3em;
+
+    @media screen and (max-width: $xl) {
+      font-size:1.25rem;
+    }
+    @media screen and (max-width: $lg) {
+      font-size:1.125rem;
+    }
+    @media screen and (max-width: $md) {
+      font-size:1rem;
+    }
   }
 }
 
@@ -40,14 +63,99 @@ h1{
   font-size: 100px;
   color: #000000;
   letter-spacing: 0;
-  line-height: 95px;
+  line-height: 0.92em;
+
+  @media screen and (max-width: $xxl) {
+    font-size: 90px;
+  }
+  @media screen and (max-width: $xl) {
+    font-size: 72px;
+  }
+  @media screen and (max-width: $lg) {
+    font-size: 60px;
+  }
+  @media screen and (max-width: $md) {
+    font-size: 42px;
+  }
 }
 
 h2{
   font-weight:bold;
+  font-size: 100px;
+  color: #000000;
+  letter-spacing: 0;
+  line-height: 0.92em;
+  margin-bottom:20px;
+
+  span{
+    border-bottom: 10px solid #000000;
+  }
+
+  @media screen and (max-width: $xxl) {
+    font-size: 90px;
+  }
+  @media screen and (max-width: $xl) {
+    font-size: 76px;
+  }
+  @media screen and (max-width: $lg) {
+    font-size: 62px;
+  }
+  @media screen and (max-width: $md) {
+    font-size: 52px;
+  }
+}
+
+h3{
+  font-weight:bold;
   font-size: 66px;
   color: #000000;
   letter-spacing: 0;
-  line-height: 72px;
-  margin-bottom:0px;
+  line-height: 76px;
+  margin-bottom:0;
+
+  span{
+    border-bottom: 10px solid #000000;
+  }
+
+  @media screen and (max-width: $xxl) {
+    font-size:62px;
+    line-height:1em;
+  }
+  @media screen and (max-width: $xl) {
+    font-size:54px;
+  }
+
+  @media screen and (max-width: $lg) {
+    font-size:48px;
+  }
+
+  @media screen and (max-width: $md) {
+    font-size:42px;
+  }
+}
+
+h4{
+  font-weight:bold;
+  font-size: 48px;
+  color: #000000;
+  letter-spacing: 0;
+  line-height: 58px;
+  margin:0 0 15px 0;
+}
+
+h5{
+  font-weight:bold;
+  font-size: 32px;
+  color: #000000;
+  letter-spacing: 0;
+  line-height: 38px;
+  margin-bottom:15px;
+}
+
+h6{
+  font-weight:normal;
+  font-size: 22px;
+  color: #000000;
+  letter-spacing: 0;
+  margin:25px 0 0 0;
 }

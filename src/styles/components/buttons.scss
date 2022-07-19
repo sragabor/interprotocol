@@ -11,7 +11,7 @@ button{
   border:none;
   outline:none;
   transition:500ms all ease-in-out;
-  margin:20px auto auto auto;
+  //margin:20px auto auto auto;
 
   &:focus{
     outline:none;
@@ -19,5 +19,29 @@ button{
 
   &:hover{
     background:lighten(#000000,10%);
+  }
+
+  &.arrow-button{
+    width:58px;
+    height:58px;
+    line-height:1em;
+    border-radius:50%;
+    text-align: center;
+    padding:0;
+
+    svg{
+      margin:auto;
+    }
+
+    &.external-link{
+      svg{
+        transform: translateY(-2px) translateX(1px);
+      }
+    }
+
+    &:disabled{
+      cursor: not-allowed;
+      opacity:.6;
+    }
   }
 }

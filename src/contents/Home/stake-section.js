@@ -11,7 +11,7 @@ class StakeSection extends React.Component {
                         <img src={StakeIcon} alt="Stake to vote"/>
                     </div>
                     <div className={'basis-3/4 pl-20'}>
-                        <h2>Stake to vote</h2>
+                        <h3>Stake to vote</h3>
                         <p>Holders of the Agoric BLD token govern the collateral accepted by Inter Protocol.  Have ideas? Start a conversation on our governance forum.	</p>
                         <a href="/">
                             <button>Start a thread</button>

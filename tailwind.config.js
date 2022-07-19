@@ -3,9 +3,12 @@ module.exports = {
         "./src/pages/**/*.{js,jsx,ts,tsx}",
         "./src/components/**/*.{js,jsx,ts,tsx}",
         "./src/contents/**/*.{js,jsx,ts,tsx}",
+        './node_modules/tw-elements/dist/js/**/*.js'
     ],
     theme: {
         extend: {},
     },
-    plugins: [],
+    plugins: [
+        require('tw-elements/dist/plugin')
+    ],
 }

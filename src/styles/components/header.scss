@@ -6,6 +6,23 @@ header{
   width:100%;
   padding:35px 0;
 
+  .header-bg{
+    position:absolute;
+    top:0;
+    left:0;
+    width:100%;
+    height:100%;
+    background:rgba(255,255,255,0);
+    transition:300ms all ease-in-out;
+    z-index:-1;
+  }
+
+  &.with-bg{
+    .header-bg{
+      background:rgba(255,255,255,1);
+    }
+  }
+
   .container{
     padding:0 30px;
     max-width:1460px;
@@ -15,12 +32,38 @@ header{
   .logo{
     width:145px;
     float:left;
+    position: relative;
+    z-index:1;
+
+    @media screen and (max-width: $md) {
+      width:118px;
+    }
+
+    .black-logo{
+      opacity:1;
+      transition:500ms all ease-in-out;
+    }
+
+    .color-logo{
+      position: absolute;
+      opacity:0;
+      transition:500ms all ease-in-out;
+    }
+  }
+
+  &.colorful{
+    .logo{
+      .black-logo{
+        opacity:0;
+      }
+      .color-logo{
+        opacity:1;
+      }
+    }
   }
 
   nav{
-    float:left;
     margin-left:55px;
-    padding-top:15px;
 
     ul{
       li{
@@ -31,5 +74,65 @@ header{
         margin-right:20px;
       }
     }
+
+    @media screen and (max-width: $md) {
+      margin-left:0;
+      position: absolute;
+      background:#FFF;
+      left:0;
+      top:0;
+      width:100%;
+      padding:120px 30px 10px;
+      border-radius:0 0 30px 30px;
+      z-index:-1;
+      transition:300ms all ease-in-out;
+      transform:translateY(-100%);
+
+      ul{
+        opacity:0;
+        transition:500ms all ease-in-out;
+        li{
+          float:none;
+          font-size: 20px;
+          margin-bottom:20px;
+        }
+      }
+    }
   }
+
+  .hamburger{
+    border-radius:0;
+    margin-right:30px;
+
+    &:hover{
+      background:none;
+    }
+  }
+
+  .hamburger-inner {
+    width:$hamburger-layer-width;
+  }
+  .hamburger-inner::before{
+    width:$hamburger-layer-width * 0.8;
+  }
+  .hamburger-inner::after{
+    width:$hamburger-layer-width * 0.6;
+  }
+
+  .hamburger--slider.is-active {
+    .hamburger-inner::after{
+      width:$hamburger-layer-width;
+    }
+  }
+
+  &.menu-opened{
+    nav{
+      transform:translateY(0);
+
+      ul{
+        opacity:1;
+      }
+    }
+  }
+
 }

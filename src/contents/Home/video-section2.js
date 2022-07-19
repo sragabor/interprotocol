@@ -11,9 +11,9 @@ class VideoSection2 extends React.Component {
                 <div className={'flex flex-row items-center h-full'}>
                     <div className={'basis-1/2 pr-64'}>
                         <div className={'video-section-content'}>
-                            <h2>Arb <br/> the peg</h2>
+                            <h2>Swap for $IST</h2>
                             <p>
-                                Provide a high-quality stable token and receive newly-minted IST using the Parity Stability module, all via CLI.
+                                Using the Parity Stability Module (PSM), you can mint $IST with a high-quality off-chain stable token. Alternatively, you can use the native AMM to swap for $IST.
                             </p>
                         </div>
                     </div>

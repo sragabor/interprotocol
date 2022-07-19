@@ -1,2 +1,4 @@
 import './src/styles/global.css'
 import "/src/styles/main.scss";
+import 'tw-elements';
+

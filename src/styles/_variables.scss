@@ -5,3 +5,26 @@ $purple: #73565E;
 
 // FONTS
 $font : 'gustavo';
+
+$sm : 640px;
+$md : 768px;
+$lg : 1024px;
+$xl : 1280px;
+$xxl : 1536px;
+
+
+
+$hamburger-padding-x: 0px;
+$hamburger-padding-y: 0px;
+$hamburger-layer-width         : 20px;
+$hamburger-layer-height        : 2px;
+$hamburger-layer-spacing       : 4px;
+$hamburger-layer-color         : #000;
+$hamburger-layer-border-radius : 0px;
+$hamburger-hover-opacity       : 1;
+$hamburger-hover-use-filter   : false;
+$hamburger-hover-filter       : opacity(100%);
+$hamburger-active-hover-filter: $hamburger-hover-filter;
+$hamburger-types     : (slider);
+
+

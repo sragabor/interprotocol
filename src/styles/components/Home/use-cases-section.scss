@@ -1,0 +1,148 @@
+.use-cases-section{
+  padding-top:130px;
+
+  @media screen and (max-width: $md) {
+    padding-top:60px;
+  }
+
+  .container{
+  }
+
+  .use-case-columns{
+    @media screen and (max-width: $md) {
+      width:calc(100% + 60px);
+      margin-left:-30px;
+    }
+  }
+
+  .use-case{
+    width:100%;
+    height:100%;
+    padding:5px;
+
+    @media screen and (max-width: $md) {
+      padding:5px 0;
+    }
+
+    .use-case-container{
+      width:100%;
+      height:100%;
+      padding:40px 80px 60px 120px;
+
+
+      @media screen and (max-width: $xl) {
+        padding:40px 60px 40px 80px;
+      }
+      @media screen and (max-width: $lg) {
+        padding:30px 50px;
+      }
+      @media screen and (max-width: $md) {
+        padding:70px 30px 50px;
+      }
+    }
+
+    .use-case-inner{
+      width:90%;
+      max-width:550px;
+
+
+      @media screen and (max-width: $md) {
+        width:100%;
+        max-width:unset;
+      }
+
+      .image{
+        height:335px;
+        margin-bottom:-50px;
+
+        @media screen and (max-width: $xl) {
+          height:300px;
+        }
+
+        @media screen and (max-width: $lg) {
+          height:260px;
+          margin-bottom:-40px;
+        }
+
+        @media screen and (max-width: $md) {
+          height:200px;
+          margin-bottom:0;
+        }
+
+        img{
+          max-height:100%;
+        }
+      }
+
+      .text{
+        font-size: 1rem;
+        color: #000000;
+        letter-spacing: 0;
+        line-height: 1.625em;
+      }
+
+      h3{
+        font-size: 62px;
+        color: #000000;
+        letter-spacing: 0;
+        line-height: 1.12em;
+
+        @media screen and (max-width: $xxl) {
+          font-size: 56px;
+        }
+        @media screen and (max-width: $xl) {
+          font-size: 52px;
+        }
+        @media screen and (max-width: $lg) {
+          font-size: 46px;
+        }
+        @media screen and (max-width: $md) {
+          font-size: 42px;
+        }
+      }
+    }
+
+    &.use-case-left{
+      .use-case-container{
+        background:  rgba(254, 199, 11, 1.0);
+        background: -webkit-radial-gradient(ellipse at bottom left, rgba(254, 199, 11, 1.0), #F89F12);
+        background: -moz-radial-gradient(ellipse at bottom left, rgba(254, 199, 11, 1.0), #F89F12);
+        background: radial-gradient(ellipse at top right, rgba(254, 199, 11, 1.0), #F89F12);
+      }
+      .use-case-inner{
+        .image{
+          margin-left:-50px;
+
+          @media screen and (max-width: $lg) {
+            margin-left:0;
+          }
+        }
+      }
+    }
+
+    &.use-case-right{
+      .use-case-container{
+        background:  rgba(254, 199, 11, 1.0);
+        background: -webkit-radial-gradient(ellipse at bottom left, #FEC60B, #FBAE10);
+        background: -moz-radial-gradient(ellipse at bottom left, #FEC60B, #FBAE10);
+        background: radial-gradient(ellipse at top right, #FEC60B, #FBAE10);
+      }
+      .image{
+        padding-bottom:50px;
+
+        img{
+          max-height:240px;
+        }
+
+        @media screen and (max-width: $md) {
+          height:170px;
+
+          img{
+            max-height:unset;
+            height:100%;
+          }
+        }
+      }
+    }
+  }
+}
