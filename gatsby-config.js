@@ -1,4 +1,11 @@
 module.exports = {
+    siteMetadata: {
+        title: `Inter Protocol`,
+        description: ``,
+        twitterUsername: `@inter_protocol`,
+        image: `/gatsby-icon.png`,
+        siteUrl: `https://inter.trade`,
+    },
     plugins: [
         // You can have multiple instances of this plugin
         // to read source nodes from different locations on your
