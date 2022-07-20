@@ -12,6 +12,7 @@
   }
   @media screen and (max-width: $md) {
     padding-top:50px;
+    padding-bottom:100px;
   }
 
   .carousel-item{
@@ -47,5 +48,41 @@
         margin-bottom:20px;
       }
     }
+  }
+
+  .react-multi-carousel-list{
+    overflow:visible;
+    .react-multi-carousel-item{
+      padding-right:10px;
+    }
+  }
+
+  .carousel-button-group{
+    @media screen and (max-width: $md) {
+      display:none;
+    }
+  }
+
+  .react-multi-carousel-dot{
+    button{
+      width:10px;
+      height:10px;
+      background:#000;
+      border:none;
+      margin:0 5px;
+    }
+
+    &.react-multi-carousel-dot--active{
+      button{
+        background:$yellow;
+      }
+    }
+  }
+
+  .react-multi-carousel-dot-list{
+    @media screen and (min-width: $md) {
+      display:none;
+    }
+    bottom:-40px;
   }
 }

@@ -5,7 +5,7 @@ class TweetCard extends React.Component {
         return (
             <div
                 key={this.props.index}
-                className="relative h-auto snap-start p-6"
+                className="relative h-auto snap-start px-1"
             >
 
                 <div className={'tweet-card'}>
