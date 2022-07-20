@@ -17,7 +17,11 @@ class HeroSection extends React.Component {
                     <div className={'flex flex-col basis-full sm:basis-8/12'}>
                         <h1 className={'uppercase'}>The Stable Token for Cosmos IBC</h1>
                         <div className={'text'}>
-                            Introducing $IST, the Inter Stable Token powered by Inter Protocol and backed by assets such as $ATOM and $OSMO.
+                            Introducing IST, the Inter Stable Token powered by Inter Protocol and backed by assets such as ATOM and OSMO.
+
+                            <a href="https://agoric.us18.list-manage.com/subscribe?u=e7b5db67fe04eaf0f02229131&id=efd0424f62" target={'_blank'} rel={'noreferrer'}>
+                                <button className={'block mt-10'}>Sign Up For Newsletter</button>
+                            </a>
                         </div>
                     </div>
                 </div>

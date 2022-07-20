@@ -11,9 +11,9 @@ class VideoSection2 extends React.Component {
                 <div className={'flex flex-wrap items-center h-full'}>
                     <div className={'basis-full md:basis-1/2 md:pr-52 order-2 md:order-1 md:pl-16'}>
                         <div className={'video-section-content'}>
-                            <h2>Swap for $IST</h2>
+                            <h2>Swap for IST</h2>
                             <p>
-                                Using the Parity Stability Module (PSM), you can mint $IST with a high-quality off-chain stable token. Alternatively, you can use the native AMM to swap for $IST.
+                                Trade in and out of IST using Swap, the native Inter Protocol AMM, or purchase IST directly with other stable tokens, such as USDC via the Parity Stability Module (PSM)
                             </p>
                         </div>
                     </div>

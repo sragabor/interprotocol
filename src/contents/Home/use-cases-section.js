@@ -28,7 +28,9 @@ class UseCasesSection extends React.Component {
                                             <div className={'text mt-5'}>
                                                 The interchain ecosystem needs a stable token backed by a broad spectrum of available IBC assets. $IST solves this by being available to all available chains in the growing IBC ecosystem.
                                             </div>
-                                            <button className={'mt-8'}>Learn more</button>
+                                            <a href="https://inter.trade/whitepaper">
+                                                <button className={'mt-8'}>Learn more</button>
+                                            </a>
                                         </div>
                                     </div>
                                 </div>
@@ -42,9 +44,11 @@ class UseCasesSection extends React.Component {
                                             </div>
                                             <h3>Fee token for Agoric</h3>
                                             <div className={'text mt-5'}>
-                                                $IST is the native fee token for the Agoric platform and provides some of the core functionality and stability for the Agoric cryptoeconomy.
+                                                IST is the native fee token for the Agoric chain and provides stability for the Agoric cryptoeconomy
                                             </div>
-                                            <button className={'mt-8'}>Learn more</button>
+                                            <a href="https://inter.trade/whitepaper">
+                                                <button className={'mt-8'}>Learn more</button>
+                                            </a>
                                         </div>
                                     </div>
                                 </div>

@@ -20,13 +20,10 @@ class Footer extends React.Component {
 
                                     <ul>
                                         <li>
-                                            <a href="#">Whitepaper</a>
+                                            <a href="https://inter.trade/whitepaper">Whitepaper</a>
                                         </li>
                                         <li>
-                                            <a href="#">Docs</a>
-                                        </li>
-                                        <li>
-                                            <a href="#">Governance</a>
+                                            <a href="https://commonwealth.im/agoric/discussions/Inter" target={"_blank"} rel={'noreferrer'}>Governance</a>
                                         </li>
                                     </ul>
                                 </div>
@@ -35,10 +32,10 @@ class Footer extends React.Component {
 
                                     <ul>
                                         <li>
-                                            <a href="#">Discord</a>
+                                            <a href="http://discord.gg/Gy25rwQuh5" target={"_blank"} rel={'noreferrer'}>Discord</a>
                                         </li>
                                         <li>
-                                            <a href="#">Twitter</a>
+                                            <a href="https://twitter.com/inter_protocol" target={"_blank"} rel={'noreferrer'}>Twitter</a>
                                         </li>
                                     </ul>
                                 </div>

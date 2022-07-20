@@ -11,7 +11,7 @@ class VideoSection1 extends React.Component {
                 <div className={'flex flex-wrap items-center h-full'}>
                     <div className={'basis-full md:basis-1/2 md:pr-52 order-2 md:order-1 md:pl-16'}>
                         <div className={'video-section-content'}>
-                            <h2>Create a vault</h2>
+                            <h2>Create a Vault</h2>
                             <p>
                                 Create a vault, mint IST, and trade in the $10B+ interchain market while holding onto your Cosmos assets.
                             </p>

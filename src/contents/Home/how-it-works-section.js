@@ -24,7 +24,7 @@ class HowItWorks extends React.Component {
                         </div>
                         <h4>Overcollateralization</h4>
                         <div className={'text'}>
-                            Due to the volatile nature of the price of crypto assets, most collateral types require overcollaterization. The collateralization ratio is set separately for each collateral type by governance.
+                            Due to the volatile nature of crypto assets, most collateral types require overcollaterization. By not using an algorithmic approach, the collateralization ratio is set separately for each collateral type by governance.
                         </div>
                     </div>
                     <div className={'flex flex-col basis-full md:basis-6/12 pt-12 md:pt-0 md:pl-5'}>

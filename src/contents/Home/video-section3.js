@@ -13,7 +13,7 @@ class VideoSection3 extends React.Component {
                         <div className={'video-section-content'}>
                             <h2>Boost your BLD</h2>
                             <p>
-                                Boost enhances your staked Agoric BLD tokens by allowing you to mint IST against your future staking rewards.
+                                BLD Boost enhances your staked Agoric BLD tokens by allowing you to mint IST against your future staking rewards.
                             </p>
                         </div>
                     </div>
