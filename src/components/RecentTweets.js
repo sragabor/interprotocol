@@ -97,7 +97,7 @@ const RecentTweets = () => {
             <Carousel
                 responsive={responsive}
                 arrows={false}
-                containerClass={'flex -mx-6 mt-5 md:mt-10'}
+                containerClass={'flex -mx-4 mt-10 md:mt-10'}
                 renderButtonGroupOutside={true}
                 removeArrowOnDeviceType={["tablet", "mobile"]}
                 showDots={true}
