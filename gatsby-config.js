@@ -28,6 +28,7 @@ module.exports = {
             },
         },
         "gatsby-plugin-sass",
-        'gatsby-plugin-postcss'
+        'gatsby-plugin-postcss',
+        `gatsby-plugin-react-helmet`
     ],
 }

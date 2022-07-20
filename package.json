@@ -22,11 +22,13 @@
     "@parcel/namer-default": "^2.6.2",
     "gatsby": "^4.19.1",
     "gatsby-plugin-manifest": "^4.19.0",
+    "gatsby-plugin-react-helmet": "^5.19.0",
     "gatsby-plugin-sass": "^5.6.0",
     "gatsby-source-filesystem": "^4.18.0",
     "hamburgers": "^1.2.1",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
+    "react-helmet": "^6.1.0",
     "react-multi-carousel": "^2.8.2",
     "sass": "^1.49.0",
     "tw-elements": "^1.0.0-alpha12"

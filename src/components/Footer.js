@@ -1,6 +1,7 @@
 import React from "react";
 
 class Footer extends React.Component {
+
     render() {
         return (
             <footer>
@@ -42,6 +43,7 @@ class Footer extends React.Component {
                             </div>
                             <div className={'flex flex-row'}>
                                 <div className={'flex flex-col basis-full'}>
+                                    <div name="termly-embed" data-id="16bbf718-0fc9-43b5-838a-697d2013b102" data-type="iframe"></div>
                                     <div className={'copyright'}>
 
                                         <a href="https://designatives.com" target={'_blank'} rel={'noreferrer'}>

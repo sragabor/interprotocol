@@ -62,7 +62,7 @@ class Header extends React.Component {
                         <div className={'flex flex-col basis-auto'}>
                             <div className={'flex items-center'}>
                                 <div className={'flex flex-col'}>
-                                    <a href="https://twitter.com/inter_protocol" target={'_blank'}>
+                                    <a href="https://twitter.com/inter_protocol" target={'_blank'} rel={'noreferrer'}>
                                         <svg width="20px" height="17px" viewBox="0 0 20 17" version="1.1" xmlns="http://www.w3.org/2000/svg">
                                             <g id="Twitter" stroke="none" strokeWidth="1" fill="none" fillRule="evenodd">
                                                 <g id="IP---FULL-NEW" transform="translate(-1479.000000, -51.000000)" fill="#000000" fillRule="nonzero">
@@ -75,7 +75,7 @@ class Header extends React.Component {
                                     </a>
                                 </div>
                                 <div className={'flex flex-col pl-5'}>
-                                    <a href="http://discord.gg/Gy25rwQuh5" target={'_blank'}>
+                                    <a href="http://discord.gg/Gy25rwQuh5" target={'_blank'} rel={'noreferrer'}>
                                         <svg width="22px" height="18px" viewBox="0 0 22 18" version="1.1" xmlns="http://www.w3.org/2000/svg">
                                             <g id="Discord" stroke="none" strokeWidth="1" fill="none" fillRule="evenodd">
                                                 <g id="IP---FULL-NEW" transform="translate(-1518.000000, -51.000000)" fill="#000000">
