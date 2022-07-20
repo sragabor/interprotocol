@@ -39,6 +39,19 @@
       text-align:left;
       max-width:420px;
 
+      @media screen and (max-width: $lg) {
+        left:25px;
+        bottom:25px;
+        right:25px;
+      }
+
+      @media screen and (max-width: $md) {
+        position:unset;
+        left:unset;
+        bottom:unset;
+        right:unset;
+      }
+
       h5{
         font-weight:500;
         font-size: 30px;
@@ -46,12 +59,23 @@
         letter-spacing: 0;
         line-height: 34px;
         margin-bottom:20px;
+
+
+        @media screen and (max-width: $lg) {
+          font-size:24px;
+          line-height:28px;
+        }
       }
     }
   }
 
   .react-multi-carousel-list{
     overflow:visible;
+
+    @media screen and (max-width: $md) {
+      overflow:hidden;
+    }
+
     .react-multi-carousel-item{
       padding-right:10px;
     }
@@ -83,6 +107,22 @@
     @media screen and (min-width: $md) {
       display:none;
     }
+    @media screen and (max-width: $md) {
+      bottom:0;
+    }
     bottom:-40px;
+  }
+
+  .play-button{
+    @media screen and (max-width: $md) {
+      position:absolute;
+      top:50%;
+      left:50%;
+      transform:translateX(-50%) translateY(-50%);
+    }
+  }
+
+  .mobile-text{
+    padding:20px 0;
   }
 }

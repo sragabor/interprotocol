@@ -207,3 +207,7 @@ h6{
   width:14px !important;
   background:$yellow !important;
 }
+
+#fp-nav ul li:hover a span, .fp-slidesNav ul li:hover a span{
+  margin: -2px 0 0 -2px !important;
+}
