@@ -1,3 +1,71 @@
 .tweet-card{
+  background: #FFFFFF;
+  box-shadow: 5px 5px 20px 0 rgba(210,210,210,0.93);
+  border-radius: 14px;
+  padding:25px 15px;
+
+  .text{
+    font-weight:normal;
+    font-size: 14px;
+    color: #000000;
+    letter-spacing: -0.1px;
+    line-height: 17px;
+    padding:15px 0 15px;
+
+    a{
+      color: #1D9BF0;
+    }
+  }
+
+  .date{
+    font-weight:normal;
+    font-size: 14px;
+    color: #7D7D7D;
+    letter-spacing: 0;
+  }
+
+  .author{
+    .twitter-image{
+      width:36px;
+      height:36px;
+      overflow: hidden;
+      border-radius:50%;
+
+      img{
+        width:100%;
+      }
+    }
+
+    .twitter-name{
+      font-weight:bold;
+      font-size: 15px;
+      color: #000000;
+      letter-spacing: 0;
+    }
+
+    .twitter-user{
+      font-weight:normal;
+      font-size: 15px;
+      color: #7D7D7D;
+      letter-spacing: 0;
+    }
+
+    .twitter-link{
+      font-weight:bold;
+      font-size: 15px;
+      color: #1D9BF0;
+      letter-spacing: 0;
+    }
+  }
+
+  .twitter-footer{
+    font-weight:normal;
+    font-size: 14px;
+    color: #7D7D7D;
+    letter-spacing: 0;
+    border-top: 1px solid #979797;
+    padding-top:10px;
+    margin-top:10px;
+  }
 
 }

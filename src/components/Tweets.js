@@ -1,12 +1,13 @@
 import React, { useState, useRef, useEffect } from 'react';
 
 // Data
-import data from '../contents/whatPeopleAreSaying.json';
+import data from '../contents/tweetPosts.json';
+import TweetCard from "./TweetPost";
 
 const Tweets = () => {
     const maxScrollWidth = useRef(0);
     const [currentIndex, setCurrentIndex] = useState(0);
-    const carousel = useRef(null);
+    const twitterPosts = useRef(null);
 
     const movePrev = () => {
         if (currentIndex > 0) {
@@ -16,8 +17,8 @@ const Tweets = () => {
 
     const moveNext = () => {
         if (
-            carousel.current !== null &&
-            carousel.current.offsetWidth * currentIndex <= maxScrollWidth.current
+            twitterPosts.current !== null &&
+            twitterPosts.current.offsetWidth * currentIndex <= maxScrollWidth.current
         ) {
             setCurrentIndex((prevState) => prevState + 1);
         }
@@ -28,9 +29,9 @@ const Tweets = () => {
             return currentIndex <= 0;
         }
 
-        if (direction === 'next' && carousel.current !== null) {
+        if (direction === 'next' && twitterPosts.current !== null) {
             return (
-                carousel.current.offsetWidth * currentIndex >= maxScrollWidth.current
+                twitterPosts.current.offsetWidth * currentIndex >= maxScrollWidth.current
             );
         }
 
@@ -38,47 +39,24 @@ const Tweets = () => {
     };
 
     useEffect(() => {
-        if (carousel !== null && carousel.current !== null) {
-            carousel.current.scrollLeft = carousel.current.offsetWidth * currentIndex;
+        if (twitterPosts !== null && twitterPosts.current !== null) {
+            twitterPosts.current.scrollLeft = twitterPosts.current.offsetWidth * currentIndex;
         }
     }, [currentIndex]);
 
     useEffect(() => {
-        maxScrollWidth.current = carousel.current
-            ? carousel.current.scrollWidth - carousel.current.offsetWidth
+        maxScrollWidth.current = twitterPosts.current
+            ? twitterPosts.current.scrollWidth - twitterPosts.current.offsetWidth
             : 0;
     }, []);
 
     return (
-        <div className="carousel my-12 mx-auto">
-            <div className="relative overflow-hidden">
-
-                <div
-                    ref={carousel}
-                    className="carousel-container relative flex gap-1 overflow-hidden scroll-smooth snap-x snap-mandatory touch-pan-x z-0"
-                >
-                    {data.resources.map((resource, index) => {
-                        return (
-                            <div
-                                key={index}
-                                className="carousel-item text-center relative w-full h-[29rem] snap-start"
-                            >
-                                <a
-                                    href={resource.link}
-                                    className="h-full w-full block bg-origin-padding bg-left-top bg-cover bg-no-repeat z-0"
-                                    style={{ backgroundImage: `url(${resource.imageUrl || ''})` }}
-                                >
-                                    <img
-                                        src={resource.imageUrl || ''}
-                                        alt={resource.title}
-                                        className="w-full hidden"
-                                    />
-                                </a>
-                            </div>
-                        );
-                    })}
+        <div>
+            <div className={'flex flex-row items-end justify-between'}>
+                <div className={'basis-1/4'}>
+                    <h3>Recent <span>tweets</span></h3>
                 </div>
-                <div className="flex pt-10">
+                <div className="basis-auto pt-5">
                     <button
                         onClick={movePrev}
                         className="arrow-button"
@@ -121,6 +99,21 @@ const Tweets = () => {
                         </svg>
                         <span className="sr-only">Next</span>
                     </button>
+                </div>
+            </div>
+            <div className="carousel my-12 mx-auto">
+                <div className="relative">
+
+                    <div
+                        ref={twitterPosts}
+                        className="carousel-container relative flex flex-nowrap gap-7 overflow-hidden scroll-smooth snap-x snap-mandatory touch-pan-x z-0"
+                    >
+                        {data.posts.map((post, index) => {
+                            return (
+                                <TweetCard index={index} tweet={post}/>
+                            );
+                        })}
+                    </div>
                 </div>
             </div>
         </div>

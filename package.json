@@ -27,6 +27,7 @@
     "hamburgers": "^1.2.1",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
+    "react-multi-carousel": "^2.8.2",
     "sass": "^1.49.0",
     "tw-elements": "^1.0.0-alpha12"
   },

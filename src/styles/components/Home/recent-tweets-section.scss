@@ -1,4 +1,51 @@
 .recent-tweets-section{
   background:#F7F7F7;
   padding:95px 0;
+
+  @media screen and (max-width: $md) {
+    padding:50px 0;
+  }
+
+  .carousel-item{
+    display:unset;
+    margin-right:unset;
+    -webkit-backface-visibility: unset;
+    backface-visibility: unset;
+    transition:unset;
+    padding:20px 0;
+  }
+
+  .react-multi-carousel-list{
+    overflow:visible;
+  }
+
+  .carousel-button-group{
+    @media screen and (max-width: $md) {
+      display:none;
+    }
+  }
+
+  .react-multi-carousel-dot{
+    button{
+      width:10px;
+      height:10px;
+      background:#000;
+      border:none;
+      margin:0 5px;
+    }
+
+    &.react-multi-carousel-dot--active{
+      button{
+        background:$yellow;
+      }
+    }
+  }
+
+  .react-multi-carousel-dot-list{
+    @media screen and (min-width: $md) {
+      display:none;
+    }
+    bottom:-20px;
+  }
+
 }

@@ -12,8 +12,6 @@ class Footer extends React.Component {
                                     <h2>Stay up<br/>
                                     to <span>date</span></h2>
                                 </div>
-                                <div className={'flex flex-col basis-1/2'}>
-                                </div>
                             </div>
                             <hr/>
                             <div className={'flex flex-row'}>

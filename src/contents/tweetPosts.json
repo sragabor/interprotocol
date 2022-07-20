@@ -1,0 +1,50 @@
+{
+  "posts": [
+    {
+      "text": "Inter is a protocol on @agoric, a highly-anticipated IBC-enabled chain built on top of Tendermint. Agoric clearly deserves its own thread but the core value proposition is to let developers write smart-contract in JavaScript, the most dominant scripting language of the internet",
+      "name": "Thyborg",
+      "user": "@Thyborg_",
+      "imageUrl": "https://pbs.twimg.com/profile_images/1510014566369013762/GR3nwWPQ_400x400.jpg",
+      "date": "May 17, 2022",
+      "likes": "16",
+      "messages": "3",
+      "link": ""
+    },{
+      "text": "Inter will have its own AMM so you'll be able to swap your $IST to $ATOM for leveraged exposure, or any other IBC coin for other purposes e.g $STARS to purchase #Stargaze NFTs, $OSMO to provide liquidity on #Osmosis, $REGEN to purchase carbon credits etc.",
+      "name": "Thyborg",
+      "user": "@Thyborg_",
+      "imageUrl": "https://pbs.twimg.com/profile_images/1510014566369013762/GR3nwWPQ_400x400.jpg",
+      "date": "May 17, 2022",
+      "likes": "38",
+      "messages": "14",
+      "link": ""
+    },{
+      "text": "Replying to @Thyborg_ @DeanTribble and 2 others. Every time that @DeanTribble said $IST I got thirsty. $IST the new beverage on #cosmos",
+      "name": "0×PØNCI*ibc",
+      "user": "@0xponci",
+      "imageUrl": "https://pbs.twimg.com/profile_images/1544370516999524352/vSbm8mj7_400x400.jpg",
+      "date": "May 17, 2022",
+      "likes": "2",
+      "messages": " Reply",
+      "link": ""
+    },{
+      "text": "$IST by @agoric is in the works. \uD83D\uDEE0 Its two main differentiators are the liquidation method determined by governance and the Cosmos native oracle they are building using @chainlink infrastructure.",
+      "name": "Zero Knowledge Validator",
+      "user": "@ZKValidator",
+      "imageUrl": "https://pbs.twimg.com/profile_images/1510014566369013762/GR3nwWPQ_400x400.jpg",
+      "date": "May 18, 2022",
+      "likes": "185",
+      "messages": "68",
+      "link": ""
+    },{
+      "text": "In addition, since the Vaults are specific to a user & a collateral type, the IST protocol only sells the precise amount of collateral needed in order to cover the outstanding debt (plus a liquidation penalty). Any remaining balance is returned to the vault",
+      "name": "Thyborg",
+      "user": "@Thyborg_",
+      "imageUrl": "https://pbs.twimg.com/profile_images/1510014566369013762/GR3nwWPQ_400x400.jpg",
+      "date": "May 18, 2022",
+      "likes": "16",
+      "messages": "Reply",
+      "link": ""
+    }
+  ]
+}
