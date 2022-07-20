@@ -17,7 +17,7 @@ class VideoSection1 extends React.Component {
                             </p>
                         </div>
                     </div>
-                    <div className={'basis-full md:basis-1/2 h-full order-1 md:order-2'}>
+                    <div className={'basis-full md:basis-1/2 h-full order-1 md:order-2 relative'}>
                         <div className={'video-container'}>
                             <video autoPlay={false} preload={'none'} loop={true} playsInline={true} muted={true} poster={video1hero}>
                                 <source src={video1} type='video/mp4;codecs="hvc1"'/>

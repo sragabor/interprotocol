@@ -3,7 +3,7 @@ module.exports = {
         title: `Inter Protocol`,
         description: ``,
         twitterUsername: `@inter_protocol`,
-        image: `/gatsby-icon.png`,
+        image: 'src/images/favicon.png',
         siteUrl: `https://inter.trade`,
     },
     plugins: [
