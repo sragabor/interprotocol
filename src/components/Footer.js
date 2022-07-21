@@ -34,6 +34,9 @@ const Footer = () => {
                                     <li>
                                         <Link to="/privacy-policy">Privacy Policy</Link>
                                     </li>
+                                    <li>
+                                        <a href="https://agoric.com/security " target={"_blank"} rel={'noreferrer'}>Security</a>
+                                    </li>
                                 </ul>
                             </div>
                             <div className={'flex flex-col'}>
