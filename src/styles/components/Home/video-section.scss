@@ -81,3 +81,13 @@
     }
   }
 }
+
+body{
+  &.fp-responsive{
+    .section{
+      &.video-section{
+        min-height:700px;
+      }
+    }
+  }
+}
