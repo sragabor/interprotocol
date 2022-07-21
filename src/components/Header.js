@@ -3,6 +3,7 @@ import {Link} from "gatsby";
 
 import logo from "../images/interprotocol-logo.svg"
 import logoColor from "../images/interprotocol-logo-color.svg"
+import whitepaper from '../assets/whitepaper.pdf';
 
 class Header extends React.Component {
     constructor(props) {
@@ -52,7 +53,7 @@ class Header extends React.Component {
                                 <div className={'flex flex-col basis-auto'}>
                                     <nav id={'menu'}>
                                         <ul>
-                                            <li><a href="https://inter.trade/whitepaper">Whitepaper</a></li>
+                                            <li><a href={whitepaper} target={'_blank'} rel={'noreferrer'}>Whitepaper</a></li>
                                             <li><a href="https://commonwealth.im/agoric/discussions/Inter ">Governance</a></li>
                                         </ul>
                                     </nav>

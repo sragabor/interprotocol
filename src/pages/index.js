@@ -4,6 +4,7 @@ import Fullpage from "../contents/homepage";
 import {SEO} from "../components/seo";
 import {Helmet} from "react-helmet";
 
+
 const IndexPage = () => {
     return (
         <div>

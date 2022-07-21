@@ -1,5 +1,6 @@
 import React  from "react";
 import { Link } from "gatsby"
+import whitepaper from '../assets/whitepaper.pdf';
 
 const Footer = () => {
     return (
@@ -25,7 +26,7 @@ const Footer = () => {
 
                                 <ul>
                                     <li>
-                                        <a href="https://inter.trade/whitepaper">Whitepaper</a>
+                                        <a href={whitepaper} target={'_blank'} rel={'noreferrer'}>Whitepaper</a>
                                     </li>
                                     <li>
                                         <a href="https://commonwealth.im/agoric/discussions/Inter" target={"_blank"} rel={'noreferrer'}>Governance</a>
