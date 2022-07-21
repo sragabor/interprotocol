@@ -1,95 +1,68 @@
 {
   "posts": [
     {
-      "text": "Inter is a protocol on @agoric, a highly-anticipated IBC-enabled chain built on top of Tendermint. Agoric clearly deserves its own thread but the core value proposition is to let developers write smart-contract in JavaScript, the most dominant scripting language of the internet",
+      "text": "Yesterday \n@DeanTribble\n & \n@zmanian\n introduced $IST at the \n@Gateway_Conf\n in Prague. Difficult to imagine a better timing to present an over-collateralised IBC-native stable \uD83C\uDF15 here's my summary of the mechanics of the Inter protocol \uD83E\uDDF5",
       "name": "Thyborg",
       "user": "@Thyborg_",
       "imageUrl": "https://pbs.twimg.com/profile_images/1510014566369013762/GR3nwWPQ_400x400.jpg",
       "date": "May 17, 2022",
-      "likes": "16",
-      "messages": "3",
-      "link": "https://twitter.com/Thyborg_/status/1526517903113084929"
+      "likes": "169",
+      "messages": "45",
+      "link": "https://twitter.com/Thyborg_/status/1526517897111040000"
     },{
-      "text": "Inter aims to be the @MakerDAO of the Cosmos ecosystem: users are able to deposit a collateral into a vault to mint a stable indexed to the US dollar. It's made of the following contracts (we'll focus on the user flow & differences w/ Maker rather than going through them here)",
-      "name": "Thyborg",
-      "user": "@Thyborg_",
-      "imageUrl": "https://pbs.twimg.com/profile_images/1510014566369013762/GR3nwWPQ_400x400.jpg",
-      "date": "May 17, 2022",
-      "likes": "20",
-      "messages": "5",
-      "link": "https://twitter.com/Thyborg_/status/1526517915482091520"
+      "text": "Our new partnership with \n@gauntletnetwork\n will help \n@inter_protocol\n and $IST achieve the robustness that an IBC native stable token requires. We look forward to the results of this exciting collaboration!",
+      "name": "Agoric",
+      "user": "@agoric",
+      "imageUrl": "https://pbs.twimg.com/profile_images/1382370601315225604/Gl81Fjpx_400x400.png",
+      "date": "Jun 15, 2022",
+      "likes": "109",
+      "messages": "35",
+      "link": "https://twitter.com/agoric/status/1537151346234761218"
     },{
-      "text": "So let's imagine that $ATOM is now 40$ and that you have 10 coins. We'll also suppose that the collateral factor of $ATOM on Inter is 50% (that'll be decided through governance later)",
-      "name": "Thyborg",
-      "user": "@Thyborg_",
-      "imageUrl": "https://pbs.twimg.com/profile_images/1510014566369013762/GR3nwWPQ_400x400.jpg",
-      "date": "May 17, 2022",
-      "likes": "3",
-      "messages": "Reply",
-      "link": "https://twitter.com/Thyborg_/status/1526517922390167553"
-    },{
-      "text": "- Deposit 100 $ATOM to Agoric via IBC\n- Lock them into a vault (value: 10 * 40 = $400)\n- Mint 50% * 400 = 200 $IST",
-      "name": "Thyborg",
-      "user": "@Thyborg_",
-      "imageUrl": "https://pbs.twimg.com/profile_images/1510014566369013762/GR3nwWPQ_400x400.jpg",
-      "date": "May 17, 2022",
-      "likes": "12",
-      "messages": "Reply",
-      "link": "https://twitter.com/Thyborg_/status/1526517931089137665"
-    },{
-      "text": "The existence of a Reserve is another reason for higher collateral factors (and therefore higher capital efficiency): if the liquidation doesn't occur fast enough, it provides an emergency fund that can cover the protocol's debt",
-      "name": "Thyborg",
-      "user": "@Thyborg_",
-      "imageUrl": "https://pbs.twimg.com/profile_images/1510014566369013762/GR3nwWPQ_400x400.jpg",
-      "date": "May 17, 2022",
-      "likes": "4",
-      "messages": "Reply",
-      "link": "https://twitter.com/Thyborg_/status/1526517940127821824"
-    },{
-      "text": "Inter comes w/ a \"parity stability\" module where users can provide a stable like USDC & receive IST directly (vs minting through a vault) for a lower cost\n\nThere are a couple of other interesting modules but they seem to be planned for later, so we'll revisit Inter at that point",
-      "name": "Thyborg",
-      "user": "@Thyborg_",
-      "imageUrl": "https://pbs.twimg.com/profile_images/1510014566369013762/GR3nwWPQ_400x400.jpg",
-      "date": "May 17, 2022",
-      "likes": "6",
+      "text": "3/n The new \n@cosmos\n Stablecoin $IST \uD83E\uDE99\n\n$IST by \n@agoric\n is in the works. ⚒️ Its two main differentiators are the liquidation method determined by governance and the Cosmos native oracle they are building using \n@chainlink\n infrastructure.",
+      "name": "Zero Knowledge Validator",
+      "user": "@ZKValidator",
+      "imageUrl": "https://pbs.twimg.com/profile_images/1334475209387220992/6I2yWcdy_400x400.jpg",
+      "date": "May 18, 2022",
+      "likes": "11",
       "messages": "1",
-      "link": "https://twitter.com/Thyborg_/status/1526517945790148608"
+      "link": "https://twitter.com/ZKValidator/status/1526912713032617986"
     },{
-      "text": "Inter will have its own AMM so you'll be able to swap your $IST to $ATOM for leveraged exposure, or any other IBC coin for other purposes e.g $STARS to purchase #Stargaze NFTs, $OSMO to provide liquidity on #Osmosis, $REGEN to purchase carbon credits etc.",
-      "name": "Thyborg",
-      "user": "@Thyborg_",
-      "imageUrl": "https://pbs.twimg.com/profile_images/1510014566369013762/GR3nwWPQ_400x400.jpg",
-      "date": "May 17, 2022",
-      "likes": "38",
-      "messages": "14",
-      "link": ""
+      "text": "Want to know how the new \n@agoric\n stablecoin protocol works? I've got you covered:\n\n☑️ What is Agoric? $BLD\n☑️ Inter Protocol $IST Explained\n☑️ How IBC Tokens are Used as Collateral\n☑️ Liquidations, Stability & Fees\n☑️ Cosmos Stablecoin Race\n\n\uD83D\uDC47\uD83D\uDC47⚛️\nhttps://youtu.be/VFmFOP9MDfA",
+      "name": "Liam Connor",
+      "user": "@L1am_Crypto",
+      "imageUrl": "https://pbs.twimg.com/profile_images/1531976428585197568/m1Te-6y4_400x400.jpg",
+      "date": "May 24, 2022",
+      "likes": "61",
+      "messages": "15",
+      "link": "https://twitter.com/L1am_Crypto/status/1529089963782025216"
     },{
-      "text": "Replying to @Thyborg_ @DeanTribble and 2 others. Every time that @DeanTribble said $IST I got thirsty. $IST the new beverage on #cosmos",
-      "name": "0×PØNCI*ibc",
+      "text": "@inter_protocol\n will fill the niche in the IBC ecosystem that Maker does in Eth ecosystem",
+      "name": "Zaki ⚛️\uD83E\uDDEE\uD83C\uDF77",
+      "user": "@zmanian",
+      "imageUrl": "https://pbs.twimg.com/profile_images/1532227365656358912/jYe-_f5E_400x400.jpg",
+      "date": "Jul 21, 2022",
+      "likes": "12",
+      "messages": "2",
+      "link": "https://twitter.com/zmanian/status/1550073274612060160"
+    },{
+      "text": "inter is extremely exciting and I’m glad we’re going this route instead of trying to copy and paste something into the cosmos eco system. Inter devs wired like your weird neighbors dad who loves to nerd out over tech, I’m sold.",
+      "name": "Portal",
+      "user": "@0xP0RTAL",
+      "imageUrl": "https://pbs.twimg.com/profile_images/1545179136481804290/gNLY8LLP_400x400.jpg",
+      "date": "Jul 21, 2022",
+      "likes": "1",
+      "messages": "Reply",
+      "link": "https://twitter.com/0xP0RTAL/status/1550080467659005952"
+    },{
+      "text": "Every time that \n@DeanTribble\n said $IST I got thirsty. $IST the new beverage on #cosmos",
+      "name": "0×PØNCI*ibc ⚛️",
       "user": "@0xponci",
       "imageUrl": "https://pbs.twimg.com/profile_images/1544370516999524352/vSbm8mj7_400x400.jpg",
       "date": "May 17, 2022",
-      "likes": "2",
-      "messages": " Reply",
-      "link": ""
-    },{
-      "text": "$IST by @agoric is in the works. \uD83D\uDEE0 Its two main differentiators are the liquidation method determined by governance and the Cosmos native oracle they are building using @chainlink infrastructure.",
-      "name": "Zero Knowledge Validator",
-      "user": "@ZKValidator",
-      "imageUrl": "https://pbs.twimg.com/profile_images/1510014566369013762/GR3nwWPQ_400x400.jpg",
-      "date": "May 18, 2022",
-      "likes": "185",
-      "messages": "68",
-      "link": ""
-    },{
-      "text": "In addition, since the Vaults are specific to a user & a collateral type, the IST protocol only sells the precise amount of collateral needed in order to cover the outstanding debt (plus a liquidation penalty). Any remaining balance is returned to the vault",
-      "name": "Thyborg",
-      "user": "@Thyborg_",
-      "imageUrl": "https://pbs.twimg.com/profile_images/1510014566369013762/GR3nwWPQ_400x400.jpg",
-      "date": "May 18, 2022",
       "likes": "16",
-      "messages": "Reply",
-      "link": "https://twitter.com/Thyborg_/status/1526517942958993409"
+      "messages": "2",
+      "link": "https://twitter.com/0xponci/status/1526534571927412741"
     }
   ]
 }
