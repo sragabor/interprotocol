@@ -8,7 +8,7 @@ class HeroSection extends React.Component {
         return (
             <div className={'container container-slim'}>
                 <div className={'video-container'}>
-                    <video autoPlay={true} preload={'none'} loop={true} playsInline={true} muted={true} poster={videohero}>
+                    <video autoPlay={true} preload={true} loop={true} playsInline={true} muted={true} poster={videohero}>
                         <source src={video} type='video/mp4;codecs="hvc1"'/>
                         <source src={videowebm} type="video/webm" />
                     </video>

@@ -83,6 +83,7 @@ class Fullpage extends React.Component {
                 responsiveHeight={800}
                 navigation={true}
                 navigationPosition={'left'}
+                lazyLoading={false}
 
 
     render={({ state, fullpageApi }) => {
