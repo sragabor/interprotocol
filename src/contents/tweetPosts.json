@@ -8,7 +8,52 @@
       "date": "May 17, 2022",
       "likes": "16",
       "messages": "3",
-      "link": ""
+      "link": "https://twitter.com/Thyborg_/status/1526517903113084929"
+    },{
+      "text": "Inter aims to be the @MakerDAO of the Cosmos ecosystem: users are able to deposit a collateral into a vault to mint a stable indexed to the US dollar. It's made of the following contracts (we'll focus on the user flow & differences w/ Maker rather than going through them here)",
+      "name": "Thyborg",
+      "user": "@Thyborg_",
+      "imageUrl": "https://pbs.twimg.com/profile_images/1510014566369013762/GR3nwWPQ_400x400.jpg",
+      "date": "May 17, 2022",
+      "likes": "20",
+      "messages": "5",
+      "link": "https://twitter.com/Thyborg_/status/1526517915482091520"
+    },{
+      "text": "So let's imagine that $ATOM is now 40$ and that you have 10 coins. We'll also suppose that the collateral factor of $ATOM on Inter is 50% (that'll be decided through governance later)",
+      "name": "Thyborg",
+      "user": "@Thyborg_",
+      "imageUrl": "https://pbs.twimg.com/profile_images/1510014566369013762/GR3nwWPQ_400x400.jpg",
+      "date": "May 17, 2022",
+      "likes": "3",
+      "messages": "Reply",
+      "link": "https://twitter.com/Thyborg_/status/1526517922390167553"
+    },{
+      "text": "- Deposit 100 $ATOM to Agoric via IBC\n- Lock them into a vault (value: 10 * 40 = $400)\n- Mint 50% * 400 = 200 $IST",
+      "name": "Thyborg",
+      "user": "@Thyborg_",
+      "imageUrl": "https://pbs.twimg.com/profile_images/1510014566369013762/GR3nwWPQ_400x400.jpg",
+      "date": "May 17, 2022",
+      "likes": "12",
+      "messages": "Reply",
+      "link": "https://twitter.com/Thyborg_/status/1526517931089137665"
+    },{
+      "text": "The existence of a Reserve is another reason for higher collateral factors (and therefore higher capital efficiency): if the liquidation doesn't occur fast enough, it provides an emergency fund that can cover the protocol's debt",
+      "name": "Thyborg",
+      "user": "@Thyborg_",
+      "imageUrl": "https://pbs.twimg.com/profile_images/1510014566369013762/GR3nwWPQ_400x400.jpg",
+      "date": "May 17, 2022",
+      "likes": "4",
+      "messages": "Reply",
+      "link": "https://twitter.com/Thyborg_/status/1526517940127821824"
+    },{
+      "text": "Inter comes w/ a \"parity stability\" module where users can provide a stable like USDC & receive IST directly (vs minting through a vault) for a lower cost\n\nThere are a couple of other interesting modules but they seem to be planned for later, so we'll revisit Inter at that point",
+      "name": "Thyborg",
+      "user": "@Thyborg_",
+      "imageUrl": "https://pbs.twimg.com/profile_images/1510014566369013762/GR3nwWPQ_400x400.jpg",
+      "date": "May 17, 2022",
+      "likes": "6",
+      "messages": "1",
+      "link": "https://twitter.com/Thyborg_/status/1526517945790148608"
     },{
       "text": "Inter will have its own AMM so you'll be able to swap your $IST to $ATOM for leveraged exposure, or any other IBC coin for other purposes e.g $STARS to purchase #Stargaze NFTs, $OSMO to provide liquidity on #Osmosis, $REGEN to purchase carbon credits etc.",
       "name": "Thyborg",
@@ -44,7 +89,7 @@
       "date": "May 18, 2022",
       "likes": "16",
       "messages": "Reply",
-      "link": ""
+      "link": "https://twitter.com/Thyborg_/status/1526517942958993409"
     }
   ]
 }
