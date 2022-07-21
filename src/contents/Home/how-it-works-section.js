@@ -22,9 +22,9 @@ class HowItWorks extends React.Component {
                                 </div>
                             </div>
                         </div>
-                        <h4>Overcollateralization</h4>
+                        <h4>User-Controlled Vaults</h4>
                         <div className={'text'}>
-                            Due to the volatile nature of crypto assets, most collateral types require overcollaterization. By not using an algorithmic approach, the collateralization ratio is set separately for each collateral type by governance.
+                            Users can deposit their collateral into Vaults and mint IST against their collateral. Users can retrieve their collateral by paying back the IST plus fees.
                         </div>
                     </div>
                     <div className={'flex flex-col basis-full md:basis-6/12 pt-12 md:pt-0 md:pl-5'}>
@@ -35,9 +35,9 @@ class HowItWorks extends React.Component {
                                 </div>
                             </div>
                         </div>
-                        <h4>Liquidation Engine</h4>
+                        <h4>Overcollateralizaiton</h4>
                         <div className={'text'}>
-                            Liquidation of user-controlled vaults occurs when the dollar price of the crypto asset falls below the collateralization ratio. The Inter Protocol uses a decentralized oracle price to determine the USD price of the collateral.
+                            The Inter Protocol relies on collateral to provide 100% backing for each IST issued. The amount of overcollateralization for each asset is determined by governance based on the riskiness of the asset. A decentralized oracle networks monitors the value of the collateral, and triggers liquidation of the collateral if it falls below the collateralization ratio.
                         </div>
                     </div>
                 </div>
@@ -56,7 +56,7 @@ class HowItWorks extends React.Component {
                         <div className={'w-full md:w-10/12'}>
                             <h5>Parity Stability Module</h5>
                             <div className={'text'}>
-                                The parity stability module is provided for high-quality stablecoins such as USDC. The Parity Stability Module provides an arbitrage opportunity that keeps the IST peg tight.
+                                The Parity Stability Module enables trading between approved stablecoins, such as USDC, and IST. Keeping the IST peg tight.
                             </div>
                         </div>
                     </div>
@@ -86,7 +86,7 @@ class HowItWorks extends React.Component {
                         <div className={'w-full md:w-10/12'}>
                             <h5>Governance</h5>
                             <div className={'text'}>
-                                Governance determines the approved collateral types and manages the parameters associated with each collateral type based on the risk of the asset. These include the total debt limit, the collateralization ratio, the stability fee, and the liquidation penalty.
+                                Governance determines the approved collateral types and manages the parameters associated with each collateral type based on the risk of the asset.
                             </div>
                         </div>
                     </div>

@@ -2,7 +2,7 @@ import React from "react";
 
 import video3 from "../../videos/video3.mp4"
 import video3webm from "../../videos/video3.webm"
-import video3hero from "../../images/video-section-3-hero.png"
+import video3hero from "../../videos/video3-poster.png"
 
 class VideoSection3 extends React.Component {
     render() {

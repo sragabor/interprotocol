@@ -1,52 +1,58 @@
-import React from "react";
+import React  from "react";
+import { Link } from "gatsby"
 
-class Footer extends React.Component {
-
-    render() {
-        return (
-            <footer>
-                <div className={'container container-slim'}>
-                    <div className={'flex flex-row'}>
-                        <div className={'basis-full md:basis-5/12'}>
-                            <div className={'flex flex-row items-center'}>
-                                <div className={'flex flex-col basis-full md:basis-1/2'}>
-                                    <h2>Stay up<br/>
+const Footer = () => {
+    return (
+        <footer>
+            <div className={'container container-slim'}>
+                <div className={'flex flex-row'}>
+                    <div className={'basis-full md:basis-5/12'}>
+                        <div className={'flex flex-row flex-wrap items-center'}>
+                            <div className={'flex flex-col basis-full lg:basis-1/2'}>
+                                <h2>Stay up<br/>
                                     to <span>date</span></h2>
-                                </div>
                             </div>
-                            <hr/>
-                            <div className={'flex flex-row'}>
-                                <div className={'flex flex-col pr-10 md:pr-20'}>
-                                    <legend>Sitemap</legend>
-
-                                    <ul>
-                                        <li>
-                                            <a href="https://inter.trade/whitepaper">Whitepaper</a>
-                                        </li>
-                                        <li>
-                                            <a href="https://commonwealth.im/agoric/discussions/Inter" target={"_blank"} rel={'noreferrer'}>Governance</a>
-                                        </li>
-                                    </ul>
-                                </div>
-                                <div className={'flex flex-col'}>
-                                    <legend>Follow us</legend>
-
-                                    <ul>
-                                        <li>
-                                            <a href="http://discord.gg/Gy25rwQuh5" target={"_blank"} rel={'noreferrer'}>Discord</a>
-                                        </li>
-                                        <li>
-                                            <a href="https://twitter.com/inter_protocol" target={"_blank"} rel={'noreferrer'}>Twitter</a>
-                                        </li>
-                                    </ul>
-                                </div>
+                            <div className={'flex flex-col basis-full lg:basis-1/2'}>
+                                <a href="https://agoric.us18.list-manage.com/subscribe?u=e7b5db67fe04eaf0f02229131&id=efd0424f62" target={'_blank'} rel={'noreferrer'}>
+                                    <button className={'block'}>Sign Up For Newsletter</button>
+                                </a>
                             </div>
-                            <div className={'flex flex-row'}>
-                                <div className={'flex flex-col basis-full'}>
-                                    <div name="termly-embed" data-id="16bbf718-0fc9-43b5-838a-697d2013b102" data-type="iframe"></div>
-                                    <div className={'copyright'}>
+                        </div>
+                        <hr/>
+                        <div className={'flex flex-row'}>
+                            <div className={'flex flex-col pr-10 md:pr-20'}>
+                                <legend>Sitemap</legend>
 
-                                        <a href="https://designatives.com" target={'_blank'} rel={'noreferrer'}>
+                                <ul>
+                                    <li>
+                                        <a href="https://inter.trade/whitepaper">Whitepaper</a>
+                                    </li>
+                                    <li>
+                                        <a href="https://commonwealth.im/agoric/discussions/Inter" target={"_blank"} rel={'noreferrer'}>Governance</a>
+                                    </li>
+                                    <li>
+                                        <Link to="/privacy-policy">Privacy Policy</Link>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div className={'flex flex-col'}>
+                                <legend>Follow us</legend>
+
+                                <ul>
+                                    <li>
+                                        <a href="http://discord.gg/Gy25rwQuh5" target={"_blank"} rel={'noreferrer'}>Discord</a>
+                                    </li>
+                                    <li>
+                                        <a href="https://twitter.com/inter_protocol" target={"_blank"} rel={'noreferrer'}>Twitter</a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div className={'flex flex-row'}>
+                            <div className={'flex flex-col basis-full'}>
+                                <div className={'copyright'}>
+
+                                    <a href="https://designatives.com" target={'_blank'} rel={'noreferrer'}>
                                         Made with
 
                                         <svg width="15px" className={'inline-block mx-2 -mt-1'} height="14px" viewBox="0 0 15 14" version="1.1" xmlns="http://www.w3.org/2000/svg">
@@ -62,16 +68,16 @@ class Footer extends React.Component {
                                         </svg>
 
                                         by Designatives
-                                        </a>
-                                    </div>
+                                    </a>
                                 </div>
                             </div>
                         </div>
                     </div>
                 </div>
-            </footer>
-        );
-    }
+            </div>
+        </footer>
+    )
+
 }
 
 export default Footer;
