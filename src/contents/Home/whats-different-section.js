@@ -24,7 +24,10 @@ class WhatsDifferentSection extends React.Component {
                 </div>
                 <div className={'flex flex-row'}>
                     <div className={'flex flex-col basis-auto block md:hidden pt-7'}>
-                        <button>Learn About BLD</button>
+
+                        <a href="https://agoric.com/economy" target={'_blank'} rel={'noreferrer'}>
+                            <button>Learn About BLD</button>
+                        </a>
                     </div>
                 </div>
             </div>
