@@ -3,8 +3,8 @@ module.exports = {
         title: `Inter Protocol`,
         description: ``,
         twitterUsername: `@inter_protocol`,
-        image: 'src/images/favicon.png',
-        siteUrl: `https://inter.trade`,
+        image: '/og-image.png',
+        siteUrl: `https://interprotocol.gatsbyjs.io/`,
     },
     plugins: [
         // You can have multiple instances of this plugin
